@@ -25,6 +25,7 @@
 		048808AB1988BD9C00A41AA4 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 048808AA1988BD9C00A41AA4 /* PlayingCard.m */; };
 		048808AE1988DDEE00A41AA4 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 048808AD1988DDEE00A41AA4 /* Deck.m */; };
 		048808B11988DFF000A41AA4 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 048808B01988DFF000A41AA4 /* PlayingCardDeck.m */; };
+		048808B41988F9BB00A41AA4 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 048808B31988F9BB00A41AA4 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		048808AD1988DDEE00A41AA4 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 		048808AF1988DFF000A41AA4 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
 		048808B01988DFF000A41AA4 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		048808B21988F9BB00A41AA4 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		048808B31988F9BB00A41AA4 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 		048808A81988BAD700A41AA4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				048808B21988F9BB00A41AA4 /* CardMatchingGame.h */,
+				048808B31988F9BB00A41AA4 /* CardMatchingGame.m */,
 				048808A51988BAC100A41AA4 /* Card.h */,
 				048808A61988BAC100A41AA4 /* Card.m */,
 				048808AC1988DDEE00A41AA4 /* Deck.h */,
@@ -282,6 +287,7 @@
 				048808831988A2A600A41AA4 /* CardGameViewController.m in Sources */,
 				048808791988A2A600A41AA4 /* main.m in Sources */,
 				048808AB1988BD9C00A41AA4 /* PlayingCard.m in Sources */,
+				048808B41988F9BB00A41AA4 /* CardMatchingGame.m in Sources */,
 				048808B11988DFF000A41AA4 /* PlayingCardDeck.m in Sources */,
 				048808AE1988DDEE00A41AA4 /* Deck.m in Sources */,
 				048808A71988BAC100A41AA4 /* Card.m in Sources */,
